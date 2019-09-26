@@ -1,0 +1,62 @@
+*
+{
+    padding: 0;   
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+#logopic{
+    height: 67px;
+    width: 100px;
+}
+
+
+.menu-bar
+{
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    
+}
+
+.nav-link
+{
+    font-size: 16px;
+    color:#fff !important;
+    margin: 2px;
+}
+
+.navbar-nav
+{
+    text-align: right;
+}
+
+.menu-bar .navbar-toggler
+{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+
+.logform{
+    align-content: center;
+    border: 1px solid blue;
+    margin: auto;
+    width: 500px;
+    padding: 10px 10px 10px;
+}
+
+.logform h3{
+    text-align: center;
+}
+.logform .button{
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+    border: none;
+    border-radius: 5%;
+    align-content: center;
+    margin:30px 50px 30px;
+    font-size: 30sp;
+    color: floralwhite !important;
+}
+
+.logform .button hover{
+    /*hover*/
+}

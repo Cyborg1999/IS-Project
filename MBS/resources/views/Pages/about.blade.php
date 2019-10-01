@@ -82,5 +82,13 @@
             </div>    
         
         </section>
+
+        <!----------------Other links----------------------->
+        <section id ="links">
+          <div class= "container">
+
+          </div>
+          
+        </section>
     </body>
 </html>

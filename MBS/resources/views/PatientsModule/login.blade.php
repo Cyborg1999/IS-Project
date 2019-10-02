@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link href="logstyle.css" type="text/css" rel="stylesheet">

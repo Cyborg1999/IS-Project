@@ -1,0 +1,18 @@
+[33mcommit b1b18471aaf8cd46b21ce664a86fac283395f607[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Cyborg1999 <41159604+Cyborg1999@users.noreply.github.com>
+Date:   Mon Sep 30 11:30:51 2019 +0300
+
+    building the dash board and the home page
+
+[33mcommit fa6b115a104b2058363785cacd53449595d8dced[m
+Author: Cyborg1999 <41159604+Cyborg1999@users.noreply.github.com>
+Date:   Thu Sep 26 12:06:50 2019 +0300
+
+    Added some fir
+    *files to the views
+
+[33mcommit 9487eec6c61438afd8598da1075f7e4cc286b0b5[m
+Author: Cyborg1999 <41159604+Cyborg1999@users.noreply.github.com>
+Date:   Mon Sep 23 13:48:15 2019 +0300
+
+    Downloaded set up for Laravel

@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('dash');
+    return view('welcome');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/dash', function(){
+    return view('PatientsModule.home');
+});

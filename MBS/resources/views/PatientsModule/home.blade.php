@@ -1,5 +1,0 @@
-@extends('PatientsModule.index')
-
-
-
-

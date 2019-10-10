@@ -12,16 +12,17 @@
 */
 
 use Illuminate\Support\Facades\Route;
-
+/*
 Route::get('/', function () {
-    return view('welcome');
+    return view('');
 });
+*/
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/dash', function(){
+Route::get('/appointments', function(){
     return view('PatientsModule.appointments');
 });
 Route::get('/info',function(){

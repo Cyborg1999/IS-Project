@@ -1,7 +1,7 @@
 @extends('layouts.nav')
 @section('content')
-<body>
+<div>
 <h1>Working Page</h1>
 
-</body>
+</div>
 @endsection

@@ -14,14 +14,21 @@
                         </div>
                     @endif
 
-                   <form method="POST" action="">
+                    <form method="POST" action="{{url('appointments')}}">
                         @csrf
-                        <div class="form-group row">
+                        <div class="form-group">
                             <label for="pname">Name</label><br>
-                            <input type="text" name="pname" placeholder="Joe Doe"><br>
+                            <input type="text" name="pname" placeholder="Joe Doe" class="form control"><br>
                             <label for="appdate">Date of Appointment</label><br>
-                            <input type="date" name="appdate" placeholder="1/1/1970"><br>
-
+                            <input type="date" name="appdate" placeholder="1/1/1970" class="form control"><br>
+                            <label for="gender">Gender</label><br>
+                            <label for="gender">Male</label>
+                            <input type="radio" name="gender" value="Male" id="" checked class="form control " >
+                            <label for="gender">Female</label>
+                            <input type="radio" name="gender" value="Female" id ="" class="form control">
+                            <label for="gender">Non-Binary</label>
+                            <input type="radio" name="gender" value="Non-Binary" id=""class="form control" ><br>
+                            <input type="submit" value="Apply" class="btn btn-primary" class="form control">
 
                         </div>
 

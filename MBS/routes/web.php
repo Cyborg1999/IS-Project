@@ -26,9 +26,12 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/appointments', function(){
+/*Route::get('/appointment', function(){
     return view('PatientsModule.appointments');
 });
+*/
 Route::get('/info',function(){
 return view('PatientsModule.patientsinfo');
 });
+
+Route:resource('appointments','AppointmentsController');

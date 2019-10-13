@@ -21,13 +21,12 @@
                             <input type="text" name="pname" placeholder="Joe Doe" class="form control"><br>
                             <label for="appdate">Date of Appointment</label><br>
                             <input type="date" name="appdate" placeholder="1/1/1970" class="form control"><br>
-                            <label for="gender">Gender</label><br>
-                            <label for="gender">Male</label>
-                            <input type="radio" name="gender" value="Male" id="" checked class="form control " >
-                            <label for="gender">Female</label>
-                            <input type="radio" name="gender" value="Female" id ="" class="form control">
-                            <label for="gender">Non-Binary</label>
-                            <input type="radio" name="gender" value="Non-Binary" id=""class="form control" ><br>
+                            <label for="insuarance">Insuarance</label><br>
+                            <label for="insuarance">Yes</label>
+                            <input type="radio" name="insuarance" value="Yes" id="" checked class="form control " >
+                            <label for="insuarance">No</label>
+                            <input type="radio" name="insuarance" value="No" id ="" class="form control"><br>
+
                             <input type="submit" value="Apply" class="btn btn-primary" class="form control">
 
                         </div>

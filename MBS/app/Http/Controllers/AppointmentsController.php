@@ -23,7 +23,7 @@ class AppointmentsController extends Controller
      */
     public function create()
     {
-        return view('PatientsModule.appointments');   //
+        return view('PatientsModule.appointments');//
     }
 
     /**

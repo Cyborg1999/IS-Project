@@ -34,4 +34,4 @@ Route::get('/info',function(){
 return view('PatientsModule.patientsinfo');
 });
 
-Route:resource('appointments','AppointmentsController');
+Route::resource('PatientsModule','AppointmentsController');

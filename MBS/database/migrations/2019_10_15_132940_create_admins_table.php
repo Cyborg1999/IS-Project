@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSpecilalistsTable extends Migration
+class CreateAdminsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,11 @@ class CreateSpecilalistsTable extends Migration
      */
     public function up()
     {
-        Schema::create('specilalists', function (Blueprint $table) {
-            $table->bigIncrements('fieldid')->index();
-            $table->string('fieldname');
+        Schema::create('admins', function (Blueprint $table) {
+            $table->bigIncrements('adminid')->index();
+            $table->string('firstname');
+            $table->string('lastname');
+            $table->string('email');
             $table->timestamps();
         });
     }
@@ -27,6 +29,6 @@ class CreateSpecilalistsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('specilalists');
+        Schema::dropIfExists('admins');
     }
 }

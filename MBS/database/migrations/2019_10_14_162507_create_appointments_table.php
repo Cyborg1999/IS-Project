@@ -25,6 +25,7 @@ class CreateAppointmentsTable extends Migration
             $table->string('address');
             $table->string('insurance');
             $table->date('appointmentDate');
+            $table->string('field');
             $table->string('fieldid')->unique();
             $table->string('medicalissue');
             $table->timestamps();

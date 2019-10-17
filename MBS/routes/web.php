@@ -26,10 +26,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-/*Route::get('/appointment', function(){
+Route::get('/appointment', function(){
     return view('PatientsModule.appointments');
 });
-*/
+
 Route::get('/info',function(){
 return view('PatientsModule.patientsinfo');
 });

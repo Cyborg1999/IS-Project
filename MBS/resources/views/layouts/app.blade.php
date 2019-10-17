@@ -66,6 +66,9 @@
                                     </form>
                                 </div>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('home') }}">{{ __('Home') }}</a>
+                            </li>
                         @endguest
                     </ul>
                 </div>
@@ -74,7 +77,9 @@
 
         <main class="py-4">
             @yield('content')
+            @yield('dataform')
         </main>
     </div>
+  @include('layouts.footer')
 </body>
 </html>

@@ -50,8 +50,8 @@
                             <select  name="special" placeholder="Oncologist" class="form-control"><br>
                                     //add foreach
                             </select><br>
-                            <label for ="request">Medical Specialist</label><br>
-                            <textarea name ="request" class="form-control" row ="3"></textarea>
+                            <label for ="request">Medical Issue</label><br>
+                            <textarea name ="request" class="form-control" row ="4"></textarea><br>
                             <input type="submit" value="Apply" class="btn btn-primary" class="form-control">
 
                         </div>

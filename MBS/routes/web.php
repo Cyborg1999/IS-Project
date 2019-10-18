@@ -25,13 +25,21 @@ return view('test');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
+/*
 Route::get('/appointment', function(){
     return view('PatientsModule.appointments');
 });
-
+*/
 Route::get('/info',function(){
 return view('PatientsModule.patientsinfo');
 });
 
 Route::resource('PatientsModule','AppointmentsController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

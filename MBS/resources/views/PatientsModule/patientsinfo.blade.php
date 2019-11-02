@@ -15,8 +15,6 @@
                                     @endif
 
                                     <form method="POST" action="{{}}">
-                                    <!-- <input type="text" placeholder="FirstName" name="firstname">
-                                        <input type="radio" name ="gender" value="male">Male-->
                                         <div class="form-group">
                                                 <div class="form-row">
                                                     <div class="col">
@@ -67,10 +65,10 @@
                                                 <label>Postal Address</label>
                                                 <div class="form-row">
                                                     <div class="col">
-                                                        <input type="number" placeholder="Postal Address" class="form-control">
+                                                        <input type="text" placeholder="Postal Address" class="form-control">
                                                     </div>
                                                     <div class="col">
-                                                        <input type="number" placeholder="Postal Zip Code" class="form-control">
+                                                        <input type="text" placeholder="Postal Zip Code" class="form-control">
                                                     </div>
                                                 </div><br>
                                                 <input type="submit" value="submit" class="btn btn-primary mr-auto" class="form-control">

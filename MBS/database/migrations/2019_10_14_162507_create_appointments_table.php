@@ -15,7 +15,7 @@ class CreateAppointmentsTable extends Migration
     {
         Schema::create('appointments', function (Blueprint $table) {
             $table->bigIncrements('appointmentsid')->index();
-            $table->string('patientsid')->unique();
+            $table->string('patientsid');
             $table->string('firstname');
             $table->string('middlename');
             $table->string('lastname');
@@ -26,7 +26,8 @@ class CreateAppointmentsTable extends Migration
             $table->string('insurance');
             $table->date('appointmentDate');
             $table->string('field');
-            $table->string('fieldid')->unique();
+            $table->string('fieldid');
+            $table->string('clinicid');
             $table->string('medicalissue');
             $table->timestamps();
         });

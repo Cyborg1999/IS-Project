@@ -22,9 +22,9 @@ class CreateDoctorsTable extends Migration
             $table->string('gender');
             $table->string('address');
             $table->string('fieldofspeciality');
-            $table->string('fieldid')->unique();
+            $table->string('fieldid');
             $table->string('clinicstation');
-            $table->string('clinicid')->unique();
+            $table->string('clinicid');
             $table->timestamps();
         });
     }
